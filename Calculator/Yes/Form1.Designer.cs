@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.InputHealth = new System.Windows.Forms.TextBox();
             this.InputArmor = new System.Windows.Forms.TextBox();
@@ -38,10 +39,18 @@
             this.BoxOutput = new System.Windows.Forms.TextBox();
             this.OutputToughness = new System.Windows.Forms.Label();
             this.Calculate = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.teToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tableOfToughnessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.OutputPoints = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.contextMenuStrip2.SuspendLayout();
+            this.contextMenuStrip3.SuspendLayout();
+            this.contextMenuStrip4.SuspendLayout();
             this.SuspendLayout();
             // 
             // InputHealth
@@ -99,7 +108,7 @@
             // 
             // BoxOutput
             // 
-            this.BoxOutput.Location = new System.Drawing.Point(12, 228);
+            this.BoxOutput.Location = new System.Drawing.Point(14, 197);
             this.BoxOutput.Name = "BoxOutput";
             this.BoxOutput.ReadOnly = true;
             this.BoxOutput.Size = new System.Drawing.Size(126, 20);
@@ -108,7 +117,7 @@
             // OutputToughness
             // 
             this.OutputToughness.AutoSize = true;
-            this.OutputToughness.Location = new System.Drawing.Point(9, 212);
+            this.OutputToughness.Location = new System.Drawing.Point(11, 181);
             this.OutputToughness.Name = "OutputToughness";
             this.OutputToughness.Size = new System.Drawing.Size(60, 13);
             this.OutputToughness.TabIndex = 7;
@@ -124,51 +133,73 @@
             this.Calculate.UseVisualStyleBackColor = true;
             this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // contextMenuStrip2
+            // 
+            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testToolStripMenuItem});
+            this.contextMenuStrip2.Name = "contextMenuStrip2";
+            this.contextMenuStrip2.Size = new System.Drawing.Size(95, 26);
+            // 
+            // testToolStripMenuItem
+            // 
+            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
+            this.testToolStripMenuItem.Text = "Test";
+            // 
+            // contextMenuStrip3
+            // 
+            this.contextMenuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.teToolStripMenuItem,
+            this.stToolStripMenuItem});
+            this.contextMenuStrip3.Name = "contextMenuStrip3";
+            this.contextMenuStrip3.Size = new System.Drawing.Size(181, 70);
+            // 
+            // teToolStripMenuItem
+            // 
+            this.teToolStripMenuItem.Name = "teToolStripMenuItem";
+            this.teToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.teToolStripMenuItem.Text = "Te";
+            // 
+            // stToolStripMenuItem
+            // 
+            this.stToolStripMenuItem.Name = "stToolStripMenuItem";
+            this.stToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.stToolStripMenuItem.Text = "st";
+            // 
+            // contextMenuStrip4
+            // 
+            this.contextMenuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tableOfToughnessToolStripMenuItem});
+            this.contextMenuStrip4.Name = "contextMenuStrip4";
+            this.contextMenuStrip4.Size = new System.Drawing.Size(177, 26);
+            // 
+            // tableOfToughnessToolStripMenuItem
+            // 
+            this.tableOfToughnessToolStripMenuItem.Name = "tableOfToughnessToolStripMenuItem";
+            this.tableOfToughnessToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.tableOfToughnessToolStripMenuItem.Text = "Table Of Toughness";
+            this.tableOfToughnessToolStripMenuItem.Click += new System.EventHandler(this.tableOfToughnessToolStripMenuItem_Click);
+            // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(222, 50);
+            this.richTextBox1.Location = new System.Drawing.Point(224, 24);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(223, 365);
+            this.richTextBox1.Size = new System.Drawing.Size(223, 414);
             this.richTextBox1.TabIndex = 13;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 168);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 13);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "\'Points\'";
-            // 
-            // OutputPoints
-            // 
-            this.OutputPoints.Location = new System.Drawing.Point(12, 184);
-            this.OutputPoints.Name = "OutputPoints";
-            this.OutputPoints.ReadOnly = true;
-            this.OutputPoints.Size = new System.Drawing.Size(126, 20);
-            this.OutputPoints.TabIndex = 14;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(219, 33);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 13);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Assistance Table";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(457, 450);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.OutputPoints);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.Calculate);
             this.Controls.Add(this.OutputToughness);
@@ -180,8 +211,11 @@
             this.Controls.Add(this.InputArmor);
             this.Controls.Add(this.InputHealth);
             this.Name = "Form1";
-            this.Text = "Toughness Calculator";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.contextMenuStrip2.ResumeLayout(false);
+            this.contextMenuStrip3.ResumeLayout(false);
+            this.contextMenuStrip4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,10 +232,15 @@
         private System.Windows.Forms.TextBox BoxOutput;
         private System.Windows.Forms.Label OutputToughness;
         private System.Windows.Forms.Button Calculate;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip3;
+        private System.Windows.Forms.ToolStripMenuItem teToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip4;
+        private System.Windows.Forms.ToolStripMenuItem tableOfToughnessToolStripMenuItem;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox OutputPoints;
-        private System.Windows.Forms.Label label4;
     }
 }
 

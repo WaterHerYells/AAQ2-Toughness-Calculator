@@ -41,6 +41,8 @@ namespace Calculator
 
         private void Calculate_Click(object sender, EventArgs e)
         {
+            int rule = 20;
+            int rule2 = 10;
             double baseVal = 2;
             double exponent = 3;
             double armor = Convert.ToDouble(InputArmor.Text);
@@ -68,7 +70,6 @@ namespace Calculator
                 Console.WriteLine(equation);
                 BoxOutput.Text = (Convert.ToString(equation));
             }
-            OutputPoints.Text = (Convert.ToString(number));
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -82,11 +83,6 @@ namespace Calculator
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
         {
 
         }
