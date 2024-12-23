@@ -1,0 +1,10 @@
+F:\!!! Toughness calculator\Calculator\Calculator\bin\Debug\Calculator.exe.config
+F:\!!! Toughness calculator\Calculator\Calculator\bin\Debug\Calculator.exe
+F:\!!! Toughness calculator\Calculator\Calculator\bin\Debug\Calculator.pdb
+F:\!!! Toughness calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+F:\!!! Toughness calculator\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+F:\!!! Toughness calculator\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+F:\!!! Toughness calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+F:\!!! Toughness calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+F:\!!! Toughness calculator\Calculator\Calculator\obj\Debug\Calculator.exe
+F:\!!! Toughness calculator\Calculator\Calculator\obj\Debug\Calculator.pdb
