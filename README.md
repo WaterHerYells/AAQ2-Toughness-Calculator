@@ -1,6 +1,6 @@
 # Calculator
 
-A Toughness Calculator for custom Abyssal Admiral Quest 2 Ships, which is found in the Calculator/bin/x64 folder
+A Toughness Calculator for custom Abyssal Admiral Quest 2 Ships, which is found in the Calculator/bin/x64/test folder
 
 Includes the calculator
 
